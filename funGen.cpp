@@ -8,9 +8,9 @@
 #include <fstream> 
 #include<cmath>
 
-#define W 2 // these are the angular frequencies
-#define WW 3
-#define WWW 5
+#define W 2*3.1415*2 // these are the angular frequencies in format 2*Pi*frequency
+#define WW 2*3.1415*3
+#define WWW 2*3.1415*5
 
 #define STEPS 500 //space between each step is 1
 
